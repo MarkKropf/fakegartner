@@ -1,0 +1,9 @@
+---
+applications:
+- name: gartnerpaas
+  framework: sinatra
+  runtime: ruby19
+  memory: 1G
+  instances: 1
+  url: gartnerpaas.${target-base}
+  path: .
